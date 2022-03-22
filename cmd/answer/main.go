@@ -39,4 +39,6 @@ func nextLine() string {
 	return sc.Text()
 }
 
-// 実装はできたのでリファクタする
+// 実装はできたのでリファクタする。なるべくシンプルに行数少なく
+
+// 問題：https://atcoder.jp/contests/abs/tasks/abc081_b
