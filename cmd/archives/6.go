@@ -41,3 +41,4 @@ func nextLine() string {
 }
 
 // 問題：https://atcoder.jp/contests/abs/tasks/abc081_b
+// まず最初に奇数が含まれているかを判定して、含まれている場合はそこで終わりにしても良いかも（無駄な処理はさせない）

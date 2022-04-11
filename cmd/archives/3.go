@@ -23,3 +23,6 @@ func main() {
 // 問題:https://atcoder.jp/contests/abs/tasks/abc081_a
 // 1の数を出力する
 // 101 -> 2
+
+// forを使わずにif文でも書ける
+// if (ar[0] == 1) { c++ } 的な

@@ -17,3 +17,6 @@ func main() {
 }
 
 // 問題:https://atcoder.jp/contests/abs/tasks/abc086_a
+
+// a 人を b 人ずつグループに分けると何グループできるか？
+// (a + b - 1) / b
