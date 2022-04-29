@@ -20,8 +20,8 @@ func main() {
 	// 1以上N以下の整数のうち、各桁の和がA以上B以下であるものの総和を求める
 	answer := 0
 	for i := 0; i <= N; i++ {
-		nums := strings.Split(strconv.Itoa(i), "")
 		sum := 0
+		nums := strings.Split(strconv.Itoa(i), "")
 		for _, num := range nums {
 			num, _ := strconv.Atoi(num)
 			sum += num
